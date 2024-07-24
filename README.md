@@ -14,7 +14,7 @@ This repository contains a project for a traffic control system using the Proxim
 ## Usage
  * Step I: Clone the Repository
 ```sh
-      $ git clone https://github.com/mihir-m-gandhi/Basic-Traffic-Intersection-Simulation
+      $ git clone [https://github.com/Feraless/Traffic-Control-using-Deep-RL/tree/main]
 ```
   * Step II: Install the required packages
 ```sh
