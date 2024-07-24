@@ -52,6 +52,12 @@ The model is trained using the PPO algorithm from Stable Baselines 3. The traini
 
 After training the model this is the development found to effectively manage traffic.
 
+- Total No of Cars passed through using conventional system = 24
+
+- Total No of Cars passed through with AI based  traffic system = 47
+
+- The model improves traffic flow by **96%**
+
 [Watch the video](https://youtu.be/2uejJxreDdc)
 
 
