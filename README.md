@@ -52,5 +52,6 @@ The model is trained using the PPO algorithm from Stable Baselines 3. The traini
 
 After training the model this is the development found to effectively manage traffic.
 
+[Watch the video](https://youtu.be/2uejJxreDdc)
 
 
