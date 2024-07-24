@@ -28,7 +28,9 @@ This repository contains a project for a traffic control system using the Proxim
 ## Project Structure
 
 -[Traffic.py: Custom traffic control environment]
+
 -[models/: Saved models]
+
 -[RL.ipynb: Training and simulation scripts]
 
 ## Custom Environment
