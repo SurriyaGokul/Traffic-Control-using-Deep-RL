@@ -40,9 +40,11 @@ The custom environment is designed to simulate a traffic intersection with the f
 * Four traffic signals
 * Each signal has a timer of 10 seconds
 * The action taken by the agent adjusts the signal timing
-* The observation includes the number of cars passed from each signal and the number of cars waiting at each signal
+* The observation includes the number of cars passing from each signal and the number of cars waiting at each signal
 * The episode ends when all 4 signals have become green
-* The reward is -1 multiplied by the total number of cars waiting at the end of the episode plus the total number of cars passed 
+* The reward is -1 multiplied by the total number of cars waiting at the end of the episode plus the total number of cars passed
+* The observation space was defined as Box(low = 0, high = np.inf, shape = (8,)), which returned the number of cars passing through all 4 signals and the number of cars waiting in all 4 signals.
+* The action space was Box(low = 0, high = 10, shape = (4,)) which made the signal timers in each particular signal(i) to be 10-action(i) effectively manipulating the signal timings at each signal.
 
 ## Training the Model
 
