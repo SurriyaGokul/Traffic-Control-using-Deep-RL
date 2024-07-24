@@ -2,7 +2,7 @@
 
 # Traffic Control Using PPO Algorithm
 
-This repository contains a project for a traffic control system using the Proximal Policy Optimization (PPO) algorithm. The custom environment simulates traffic signals and vehicles at an intersection, aiming to optimize the flow of traffic.
+This repository contains a project for a traffic control system using the Proximal Policy Optimization (PPO) algorithm. The custom environment simulates traffic signals and vehicles at an intersection, aiming to optimize traffic flow and minimize waiting time.
 
 ## Table of Contents
 
