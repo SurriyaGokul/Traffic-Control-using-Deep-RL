@@ -48,7 +48,7 @@ The custom environment is designed to simulate a traffic intersection with the f
 
 ## Training the Model
 
-The model is trained using the PPO algorithm from Stable Baselines 3. The training script is located in the RL.ipynb directory.
+The model is trained using the Proximal Policy Optimization algorithm from Stable Baselines 3. The training script is located in the RL.ipynb directory.
 
 ## Results
 
